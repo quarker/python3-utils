@@ -20,3 +20,11 @@ print(text3)
 print(get_name("Dao", "food"))
 print(text4)
 print(text5)
+
+"""
+https://docs.python.org/3/library/string.html#formatspec
+"""
+h, m = 11, 7
+text6 = '{:d}:{:02d}'.format(h, m)
+assert text6 == '11:07'
+print(text6)
